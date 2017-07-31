@@ -5,11 +5,12 @@ export default class Smallcards extends React.Component{
     render(){
         return(
         <div className="aside-tarjetas" >
-            <Jumbotron>
+            <Jumbotron className="jumbo" style={this.props.estilo}>
             <h5>New Visitors</h5>
             <h3>1.5K</h3>
             </Jumbotron>
-            <div className="espacio-blanco"></div>
+            <Jumbotron className="espacio-blanco"></Jumbotron>
+            
             
             
         </div>

@@ -6,7 +6,7 @@ export default class Bigcards extends React.Component{
         return(
             <div className= "color-tarjeta">
                 <div>
-                <Jumbotron className="fondocolor">
+                <Jumbotron className="fondocolor" style={this.props.fondo}>
                   </Jumbotron>
                    <div className="contenedor-gris">
                     <h1>20</h1>
@@ -14,7 +14,7 @@ export default class Bigcards extends React.Component{
                     </div>
                     </div>
                     <div>
-                   <Jumbotron className="fondocolor">
+                   <Jumbotron className="fondocolor" style={this.props.fondo}>
                   </Jumbotron>
                    <div className="contenedor-gris">
                     <h1>20</h1>
@@ -22,7 +22,7 @@ export default class Bigcards extends React.Component{
                     </div>
                     </div>
                     <div>
-                    <Jumbotron className="fondocolor">
+                    <Jumbotron className="fondocolor" style={this.props.fondo}>
                   </Jumbotron>
                    <div className="contenedor-gris">
                     <h1>20</h1>

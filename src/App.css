@@ -73,7 +73,8 @@
 }
 
 .aside-tarjetas{
-    margin-bottom: -10vh;
+    margin-bottom: -5vh;
+    height: 100%;
 }
 
 .contenedor-gris {
@@ -85,5 +86,17 @@
 }
 
 .espacio-blanco {
-    height: 10vh;
+    height: 5vh;
+    margin-top:-10vh;
+    background-color: #fff;
+    border: .5px solid #EDEEF1;
+    margin-bottom: 10vh;
+}
+
+.jumbo{
+    padding-left: 1vw;
+}
+
+.naranja {
+    background-color: orangered;
 }
