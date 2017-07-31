@@ -9,24 +9,24 @@ export default class Bigcards extends React.Component{
                 <Jumbotron className="fondocolor" style={this.props.fondo}>
                   </Jumbotron>
                    <div className="contenedor-gris">
-                    <h1>20</h1>
-                    <p>New Followers</p>
+                    <h1>{this.props.number1}</h1>
+                    <p>{this.props.texto1}</p>
                     </div>
                     </div>
                     <div>
                    <Jumbotron className="fondocolor" style={this.props.fondo}>
                   </Jumbotron>
                    <div className="contenedor-gris">
-                    <h1>20</h1>
-                    <p>New Followers</p>
+                    <h1>{this.props.number2}</h1>
+                    <p>{this.props.texto2}</p>
                     </div>
                     </div>
                     <div>
                     <Jumbotron className="fondocolor" style={this.props.fondo}>
                   </Jumbotron>
                    <div className="contenedor-gris">
-                    <h1>20</h1>
-                    <p>New Followers</p>
+                    <h1>{this.props.number3}</h1>
+                    <p>{this.props.texto3}</p>
                     </div>
                     </div>
             

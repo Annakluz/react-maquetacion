@@ -42,8 +42,8 @@ class App extends Component {
         </div>
         
         <div className="contenedor">
-            <Bigcards fondo={azul}/>
-            <Bigcards fondo={morado}/>
+            <Bigcards fondo={azul} number1="1580" texto1="Shot Views" number2="12000" texto2="Likes" number3="5100" texto3="Comments"/>
+            <Bigcards fondo={morado} number1="1580" texto1="Shot Views" number2="12000" texto2="Likes" number3="5100" texto3="Comments" />
         
         
         </div>

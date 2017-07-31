@@ -83,14 +83,27 @@
     margin-top: -10vh;
     margin-bottom: 5vh;
     background-color: dimgray;
+    text-align: center;
 }
 
 .espacio-blanco {
-    height: 5vh;
+    height: 2vh;
     margin-top:-10vh;
     background-color: #fff;
     border: .5px solid #EDEEF1;
     margin-bottom: 10vh;
+    padding: 4vh;
+}
+
+.small {
+    height: 10vh;
+    padding-top: 1vh;
+    
+    
+}
+
+.textoCentro{
+    text-align: center;
 }
 
 .jumbo{
