@@ -22,3 +22,68 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+.color-tarjeta{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.cuerpo {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 3vh;
+    margin: 3vh;
+    
+    
+}
+
+.cabecera {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3vh;
+    
+   
+}
+
+.contenedor {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-gap: 3vh;
+    
+    
+}
+
+.fondocolor {
+    height: 30vh;
+}
+
+.aside-right {
+    grid-column: 2;
+    grid-row: 1 / 4; 
+
+}
+
+.aside-tarjetas{
+    margin-bottom: -10vh;
+}
+
+.contenedor-gris {
+    color: white;
+    height: 10vh;
+    margin-top: -10vh;
+    margin-bottom: 5vh;
+    background-color: dimgray;
+}
+
+.espacio-blanco {
+    height: 10vh;
+}

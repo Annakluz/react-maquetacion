@@ -6,8 +6,8 @@ export default class Mediumcards extends React.Component{
         return(
             <div>
             <Jumbotron>
-                <h1>20</h1>
-                <p>New Followers</p>
+                <h2>20</h2>
+                <h5>New Followers</h5>
             </Jumbotron>
         </div>
         )
